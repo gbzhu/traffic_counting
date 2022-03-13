@@ -1,6 +1,7 @@
 
+#### 工作目录 
 
-### 工作目录 '/home/student5/gbzhu'
+`/home/student5/gbzhu`
 
 1. 先上传数据文件
 
