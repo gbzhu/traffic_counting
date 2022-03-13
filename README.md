@@ -15,7 +15,7 @@ hdfs dfs -put HTTP_20130313143750.dat /user/gbzhu/
 2. 查询文件
 
 ```shell
-$ hdfs dfs -ls /user/gbzhu
+hdfs dfs -ls /user/gbzhu
 Found 1 items
 -rw-r-----   2 student5 hadoop       2209 2022-03-13 19:33 /user/gbzhu/HTTP_20130313143750.dat
 ```
