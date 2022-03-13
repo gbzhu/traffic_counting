@@ -14,12 +14,12 @@
 2. 执行作业
 
 ```shell
-    hadoop jar $HOME/jonas/trafficcount.jar com.example.trafficcount.TrafficCount
+    hadoop jar $HOME/gbzhu/trafficcount.jar com.example.trafficcount.TrafficCount
 ```
 
 3. 下载输出
 ```shell
-    hdfs dfs -get /user/jonas/output
+    hdfs dfs -get /user/gbzhu/output
 ```
 
 4. 打印输出
