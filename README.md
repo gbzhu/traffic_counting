@@ -22,7 +22,7 @@ Found 1 items
 
 3. 执行作业
 ```shell
-hadoop jar $HOME/gbzhu/trafficcount.jar com.example.trafficcount.TrafficCount
+hadoop jar $HOME/gbzhu/traffic_counting.jar com.example.trafficcount.TrafficCount
 ```
 
 4. 下载输出

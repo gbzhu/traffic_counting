@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>trafficcount</artifactId>
+    <artifactId>traffic_counting</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.17</maven.compiler.source>
+        <maven.compiler.target>1.17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -23,6 +23,6 @@
     </dependencies>
 
     <build>
-        <finalName>trafficcount</finalName>
+        <finalName>traffic_counting</finalName>
     </build>
 </project>

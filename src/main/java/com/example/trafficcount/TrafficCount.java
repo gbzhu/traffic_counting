@@ -44,7 +44,7 @@ public class TrafficCount {
 
     public static void main(String[] args) throws Exception {
         JobConf conf = new JobConf(TrafficCount.class);
-        conf.setJobName("trafficcount");
+        conf.setJobName("traffic_counting");
         conf.setMapperClass(Map.class);
 
         conf.setOutputKeyClass(Text.class);
