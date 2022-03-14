@@ -56,8 +56,8 @@ public class TrafficCount {
         conf.setInputFormat(TextInputFormat.class);
         conf.setOutputFormat(TextOutputFormat.class);
 
-        FileInputFormat.setInputPaths(conf, new Path("/user/gbzhu/HTTP_20130313143750.dat"));
-        FileOutputFormat.setOutputPath(conf, new Path("/user/gbzhu/output"));
+        FileInputFormat.setInputPaths(conf, new Path("/user/zhu_guan_bing/HTTP_20130313143750.dat"));
+        FileOutputFormat.setOutputPath(conf, new Path("/user/zhu_guan_bing/output"));
 
         JobClient.runJob(conf);
     }
